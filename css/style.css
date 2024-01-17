@@ -1,0 +1,19 @@
+/* nav{
+    background-color: #2C3E50;
+} */
+
+/* header{
+    color: white;
+
+    background-color: #1ABC9C;
+} */
+
+[class*="container"]{
+    border: 1px dashed black;
+    /* test */
+}
+
+[class*="col"]{
+    border: 1px solid red;
+    /* test */
+}
