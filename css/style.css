@@ -1,13 +1,3 @@
-/* test */
-[class*="container"]{
-    border: 1px dashed black;
-}
-
-/* [class*="col"]{
-    border: 1px solid red;
-} */
-
-/* fine test */
 .copyright{
     background-color: #2C3E50;
 }
