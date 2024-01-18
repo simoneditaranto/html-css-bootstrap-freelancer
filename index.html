@@ -19,7 +19,7 @@
     <body>
         
         <!-- navbar -->
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark text-uppercase fw-bold">
+        <nav class="navbar navbar-dark navbar-expand-md text-uppercase fw-bold bg_my_dark">
             <div class="container-md">
               <a class="navbar-brand" href="#">Start Bootstrap</a>
               <button class="navbar-toggler btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
           </nav>
 
         <!-- header -->
-        <header class="py-5 fw-bold text-uppercase text-center text-white bg-success">
+        <header class="py-5 fw-bold text-uppercase text-center text-white bg_light_green">
             <div class="container">
 
                 <div class="col-6 col-md-4 mx-auto mb-2">
@@ -52,7 +52,7 @@
                 <h1>Start Bootstrap</h1>
 
                 <div class="divisor col-3 mx-auto">
-                    <div class="d-flex align-items-center gap-1">
+                    <div class="d-flex align-items-center">
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
                         <div class="col-2"><i class="fa-solid fa-star"></i></div>
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
@@ -72,7 +72,7 @@
                 <h1 class="text-uppercase">Portfolio</h1>
 
                 <div class="divisor col-3 mx-auto">
-                    <div class="d-flex align-items-center gap-1">
+                    <div class="d-flex align-items-center">
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
                         <div class="col-2"><i class="fa-solid fa-star"></i></div>
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
@@ -124,13 +124,13 @@
         </section>
 
         <!-- sezione about -->
-        <section id="about" class="bg-success py-5">
+        <section id="about" class="bg_light_green py-5">
 
             <div class="container d-flex flex-column align-items-center text-white">
 
                 <h1 class="text-uppercase">About</h1>
                 <div class="divisor col-3 mx-auto text-center">
-                    <div class="d-flex align-items-center gap-1">
+                    <div class="d-flex align-items-center">
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
                         <div class="col-2"><i class="fa-solid fa-star"></i></div>
                         <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
@@ -167,7 +167,7 @@
             <h1 class="text-center text-uppercase">Contact me</h1>
 
             <div class="divisor col-3 mx-auto">
-                <div class="d-flex align-items-center gap-1">
+                <div class="d-flex align-items-center">
                     <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
                     <div class="col-2 text-center"><i class="fa-solid fa-star"></i></div>
                     <div class="col-5"><hr class="border-2 opacity-100 rounded"></div>
@@ -195,7 +195,7 @@
                         <textarea class="form-control px-0 border-0 border-bottom" id="inputMessage" rows="5" placeholder="Message"></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-success bg_light_green">Submit</button>
 
                   </form>
                 </div>
@@ -205,7 +205,7 @@
         </section>
 
         <!-- footer -->
-        <footer class="bg-dark">
+        <footer class="bg_my_dark">
 
             <div class="container-md text-center text-white">
 
@@ -227,11 +227,24 @@
                         <div class="mini-title text-uppercase">
                             Around the web
                         </div>
+
                         <div class="socials">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-google-plus-g"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <button type="button" class="btn btn-outline-light rounded-circle my_social_style">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </button>
+            
+                            <button type="button" class="btn btn-outline-light rounded-circle my_social_style">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-outline-light rounded-circle my_social_style">
+                                <i class="fa-brands fa-twitter"></i>
+                            </button>
+                            
+                            <button type="button" class="btn btn-outline-light rounded-circle my_social_style">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </button>
+                    
                         </div>
 
                     </div>

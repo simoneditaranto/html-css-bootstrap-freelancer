@@ -1,3 +1,15 @@
-.copyright{
+.bg_my_dark{
     background-color: #2C3E50;
+}
+
+.bg_light_green{
+    background-color: #1ABC9C;
+}
+
+.my_social_style i{
+    width: 16px;
+}
+
+.copyright{
+    background-color: #3A546D;
 }
