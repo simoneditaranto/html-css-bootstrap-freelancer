@@ -3,9 +3,9 @@
     border: 1px dashed black;
 }
 
-[class*="col"]{
+/* [class*="col"]{
     border: 1px solid red;
-}
+} */
 
 /* fine test */
 .copyright{
