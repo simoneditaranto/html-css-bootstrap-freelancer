@@ -1,13 +1,18 @@
+/* test */
 [class*="container"]{
     border: 1px dashed black;
-    /* test */
 }
 
 [class*="col"]{
     border: 1px solid red;
-    /* test */
 }
 
+.image{
+    padding: 100px 0;
+    background-color: purple;
+}
+
+/* fine test */
 .copyright{
     background-color: #2C3E50;
 }
